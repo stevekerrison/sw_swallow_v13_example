@@ -22,7 +22,9 @@ Known Issues
 Required software (dependencies)
 ================================
 
-* tool_xmp16_manycore [swallow_v2 branch for swallow-xn-gen.py]
-* sw_swallow_etherboot
-* sw_swallow_xlinkboot
+* tool_swallow-gen-xn (https://github.com/stevekerrison/tool_swallow-gen-xn)
+* sw_swallow_etherboot:tools_v13
+  (https://github.com/stevekerrison/sw_swallow_etherboot/tree/tools_v13)
+* sw_swallow_xlinkboot (https://github.com/stevekerrison/sw_swallow_xlinkboot)
 * sc_swallow_communication
+  (https://github.com/stevekerrison/sc_swallow_communication)
