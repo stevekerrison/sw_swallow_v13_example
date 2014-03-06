@@ -1,0 +1,720 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Network xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.xmos.com" xsi:schemaLocation="http://www.xmos.com http://www.xmos.com">
+  <Type>Device</Type>
+  <Name>Swallow 16 tile system (1w * 1h)</Name>
+  <Declarations>
+    <Declaration>tileref tile[16]</Declaration>
+  </Declarations>
+  <Packages>
+    <Package ID="0" Type="XS1-L2A-QF124">
+      <Nodes>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="5" InPackageId="0" Type="XS1-L1A" routingId="0x102">
+          <Tile Number="0" Reference="tile[5]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="2" number="0"/>
+              <Bit direction="1" number="1"/>
+              <Bit direction="3" number="2"/>
+              <Bit direction="3" number="3"/>
+              <Bit direction="3" number="4"/>
+              <Bit direction="3" number="5"/>
+              <Bit direction="3" number="6"/>
+              <Bit direction="3" number="7"/>
+              <Bit direction="1" number="8"/>
+              <Bit direction="1" number="9"/>
+              <Bit direction="1" number="10"/>
+              <Bit direction="1" number="11"/>
+              <Bit direction="1" number="12"/>
+              <Bit direction="1" number="13"/>
+              <Bit direction="1" number="14"/>
+              <Bit direction="2" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLA" direction="2"/>
+              <Link name="XLB" direction="3"/>
+              <Link name="XLG" direction="1"/>
+              <Link name="XLH" direction="1"/>
+              <Link name="XLE" direction="1"/>
+              <Link name="XLF" direction="1"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="4" InPackageId="1" Type="XS1-L1A" routingId="0x100">
+          <Tile Number="0" Reference="tile[4]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="5" number="0"/>
+              <Bit direction="0" number="1"/>
+              <Bit direction="0" number="2"/>
+              <Bit direction="0" number="3"/>
+              <Bit direction="0" number="4"/>
+              <Bit direction="0" number="5"/>
+              <Bit direction="0" number="6"/>
+              <Bit direction="0" number="7"/>
+              <Bit direction="4" number="8"/>
+              <Bit direction="5" number="9"/>
+              <Bit direction="5" number="10"/>
+              <Bit direction="5" number="11"/>
+              <Bit direction="5" number="12"/>
+              <Bit direction="5" number="13"/>
+              <Bit direction="5" number="14"/>
+              <Bit direction="0" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLA" direction="4"/>
+              <Link name="XLB" direction="5"/>
+              <Link name="XLG" direction="0"/>
+              <Link name="XLH" direction="0"/>
+              <Link name="XLE" direction="0"/>
+              <Link name="XLF" direction="0"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+      </Nodes>
+    </Package>
+    <Package ID="1" Type="XS1-L2A-QF124">
+      <Nodes>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="1" InPackageId="0" Type="XS1-L1A" routingId="0x2">
+          <Tile Number="0" Reference="tile[1]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="2" number="0"/>
+              <Bit direction="1" number="1"/>
+              <Bit direction="3" number="2"/>
+              <Bit direction="3" number="3"/>
+              <Bit direction="3" number="4"/>
+              <Bit direction="3" number="5"/>
+              <Bit direction="3" number="6"/>
+              <Bit direction="3" number="7"/>
+              <Bit direction="1" number="8"/>
+              <Bit direction="1" number="9"/>
+              <Bit direction="1" number="10"/>
+              <Bit direction="1" number="11"/>
+              <Bit direction="1" number="12"/>
+              <Bit direction="1" number="13"/>
+              <Bit direction="1" number="14"/>
+              <Bit direction="1" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLB" direction="3"/>
+              <Link name="XLG" direction="1"/>
+              <Link name="XLH" direction="1"/>
+              <Link name="XLE" direction="1"/>
+              <Link name="XLF" direction="1"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="0" InPackageId="1" Type="XS1-L1A" routingId="0x0">
+          <Tile Number="0" Reference="tile[0]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="4" number="0"/>
+              <Bit direction="0" number="1"/>
+              <Bit direction="0" number="2"/>
+              <Bit direction="0" number="3"/>
+              <Bit direction="0" number="4"/>
+              <Bit direction="0" number="5"/>
+              <Bit direction="0" number="6"/>
+              <Bit direction="0" number="7"/>
+              <Bit direction="5" number="8"/>
+              <Bit direction="5" number="9"/>
+              <Bit direction="5" number="10"/>
+              <Bit direction="5" number="11"/>
+              <Bit direction="5" number="12"/>
+              <Bit direction="5" number="13"/>
+              <Bit direction="5" number="14"/>
+              <Bit direction="5" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLB" direction="5"/>
+              <Link name="XLG" direction="0"/>
+              <Link name="XLH" direction="0"/>
+              <Link name="XLE" direction="0"/>
+              <Link name="XLF" direction="0"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+      </Nodes>
+    </Package>
+    <Package ID="2" Type="XS1-L2A-QF124">
+      <Nodes>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="3" InPackageId="0" Type="XS1-L1A" routingId="0x6">
+          <Tile Number="0" Reference="tile[3]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="3" number="0"/>
+              <Bit direction="1" number="1"/>
+              <Bit direction="2" number="2"/>
+              <Bit direction="3" number="3"/>
+              <Bit direction="3" number="4"/>
+              <Bit direction="3" number="5"/>
+              <Bit direction="3" number="6"/>
+              <Bit direction="3" number="7"/>
+              <Bit direction="1" number="8"/>
+              <Bit direction="1" number="9"/>
+              <Bit direction="1" number="10"/>
+              <Bit direction="1" number="11"/>
+              <Bit direction="1" number="12"/>
+              <Bit direction="1" number="13"/>
+              <Bit direction="1" number="14"/>
+              <Bit direction="1" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLA" direction="2"/>
+              <Link name="XLG" direction="1"/>
+              <Link name="XLH" direction="1"/>
+              <Link name="XLE" direction="1"/>
+              <Link name="XLF" direction="1"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="2" InPackageId="1" Type="XS1-L1A" routingId="0x4">
+          <Tile Number="0" Reference="tile[2]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="4" number="0"/>
+              <Bit direction="0" number="1"/>
+              <Bit direction="0" number="2"/>
+              <Bit direction="0" number="3"/>
+              <Bit direction="0" number="4"/>
+              <Bit direction="0" number="5"/>
+              <Bit direction="0" number="6"/>
+              <Bit direction="0" number="7"/>
+              <Bit direction="5" number="8"/>
+              <Bit direction="5" number="9"/>
+              <Bit direction="5" number="10"/>
+              <Bit direction="5" number="11"/>
+              <Bit direction="5" number="12"/>
+              <Bit direction="5" number="13"/>
+              <Bit direction="5" number="14"/>
+              <Bit direction="5" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLB" direction="5"/>
+              <Link name="XLG" direction="0"/>
+              <Link name="XLH" direction="0"/>
+              <Link name="XLE" direction="0"/>
+              <Link name="XLF" direction="0"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+      </Nodes>
+    </Package>
+    <Package ID="3" Type="XS1-L2A-QF124">
+      <Nodes>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="7" InPackageId="0" Type="XS1-L1A" routingId="0x106">
+          <Tile Number="0" Reference="tile[7]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="3" number="0"/>
+              <Bit direction="1" number="1"/>
+              <Bit direction="2" number="2"/>
+              <Bit direction="3" number="3"/>
+              <Bit direction="3" number="4"/>
+              <Bit direction="3" number="5"/>
+              <Bit direction="3" number="6"/>
+              <Bit direction="3" number="7"/>
+              <Bit direction="1" number="8"/>
+              <Bit direction="1" number="9"/>
+              <Bit direction="1" number="10"/>
+              <Bit direction="1" number="11"/>
+              <Bit direction="1" number="12"/>
+              <Bit direction="1" number="13"/>
+              <Bit direction="1" number="14"/>
+              <Bit direction="2" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLA" direction="2"/>
+              <Link name="XLG" direction="1"/>
+              <Link name="XLH" direction="1"/>
+              <Link name="XLE" direction="1"/>
+              <Link name="XLF" direction="1"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="6" InPackageId="1" Type="XS1-L1A" routingId="0x104">
+          <Tile Number="0" Reference="tile[6]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="5" number="0"/>
+              <Bit direction="0" number="1"/>
+              <Bit direction="0" number="2"/>
+              <Bit direction="0" number="3"/>
+              <Bit direction="0" number="4"/>
+              <Bit direction="0" number="5"/>
+              <Bit direction="0" number="6"/>
+              <Bit direction="0" number="7"/>
+              <Bit direction="4" number="8"/>
+              <Bit direction="5" number="9"/>
+              <Bit direction="5" number="10"/>
+              <Bit direction="5" number="11"/>
+              <Bit direction="5" number="12"/>
+              <Bit direction="5" number="13"/>
+              <Bit direction="5" number="14"/>
+              <Bit direction="0" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLA" direction="4"/>
+              <Link name="XLB" direction="5"/>
+              <Link name="XLG" direction="0"/>
+              <Link name="XLH" direction="0"/>
+              <Link name="XLE" direction="0"/>
+              <Link name="XLF" direction="0"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+      </Nodes>
+    </Package>
+    <Package ID="4" Type="XS1-L2A-QF124">
+      <Nodes>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="11" InPackageId="0" Type="XS1-L1A" routingId="0x206">
+          <Tile Number="0" Reference="tile[11]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="3" number="0"/>
+              <Bit direction="1" number="1"/>
+              <Bit direction="2" number="2"/>
+              <Bit direction="3" number="3"/>
+              <Bit direction="3" number="4"/>
+              <Bit direction="3" number="5"/>
+              <Bit direction="3" number="6"/>
+              <Bit direction="3" number="7"/>
+              <Bit direction="1" number="8"/>
+              <Bit direction="1" number="9"/>
+              <Bit direction="1" number="10"/>
+              <Bit direction="1" number="11"/>
+              <Bit direction="1" number="12"/>
+              <Bit direction="1" number="13"/>
+              <Bit direction="1" number="14"/>
+              <Bit direction="1" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLA" direction="2"/>
+              <Link name="XLG" direction="1"/>
+              <Link name="XLH" direction="1"/>
+              <Link name="XLE" direction="1"/>
+              <Link name="XLF" direction="1"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="10" InPackageId="1" Type="XS1-L1A" routingId="0x204">
+          <Tile Number="0" Reference="tile[10]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="5" number="0"/>
+              <Bit direction="0" number="1"/>
+              <Bit direction="0" number="2"/>
+              <Bit direction="0" number="3"/>
+              <Bit direction="0" number="4"/>
+              <Bit direction="0" number="5"/>
+              <Bit direction="0" number="6"/>
+              <Bit direction="0" number="7"/>
+              <Bit direction="5" number="8"/>
+              <Bit direction="4" number="9"/>
+              <Bit direction="5" number="10"/>
+              <Bit direction="5" number="11"/>
+              <Bit direction="5" number="12"/>
+              <Bit direction="5" number="13"/>
+              <Bit direction="5" number="14"/>
+              <Bit direction="4" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLA" direction="4"/>
+              <Link name="XLB" direction="5"/>
+              <Link name="XLG" direction="0"/>
+              <Link name="XLH" direction="0"/>
+              <Link name="XLE" direction="0"/>
+              <Link name="XLF" direction="0"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+      </Nodes>
+    </Package>
+    <Package ID="5" Type="XS1-L2A-QF124">
+      <Nodes>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="15" InPackageId="0" Type="XS1-L1A" routingId="0x306">
+          <Tile Number="0" Reference="tile[15]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="3" number="0"/>
+              <Bit direction="1" number="1"/>
+              <Bit direction="2" number="2"/>
+              <Bit direction="3" number="3"/>
+              <Bit direction="3" number="4"/>
+              <Bit direction="3" number="5"/>
+              <Bit direction="3" number="6"/>
+              <Bit direction="3" number="7"/>
+              <Bit direction="1" number="8"/>
+              <Bit direction="1" number="9"/>
+              <Bit direction="1" number="10"/>
+              <Bit direction="1" number="11"/>
+              <Bit direction="1" number="12"/>
+              <Bit direction="1" number="13"/>
+              <Bit direction="1" number="14"/>
+              <Bit direction="1" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLA" direction="2"/>
+              <Link name="XLG" direction="1"/>
+              <Link name="XLH" direction="1"/>
+              <Link name="XLE" direction="1"/>
+              <Link name="XLF" direction="1"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="14" InPackageId="1" Type="XS1-L1A" routingId="0x304">
+          <Tile Number="0" Reference="tile[14]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="5" number="0"/>
+              <Bit direction="0" number="1"/>
+              <Bit direction="0" number="2"/>
+              <Bit direction="0" number="3"/>
+              <Bit direction="0" number="4"/>
+              <Bit direction="0" number="5"/>
+              <Bit direction="0" number="6"/>
+              <Bit direction="0" number="7"/>
+              <Bit direction="4" number="8"/>
+              <Bit direction="4" number="9"/>
+              <Bit direction="5" number="10"/>
+              <Bit direction="5" number="11"/>
+              <Bit direction="5" number="12"/>
+              <Bit direction="5" number="13"/>
+              <Bit direction="5" number="14"/>
+              <Bit direction="4" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLA" direction="4"/>
+              <Link name="XLG" direction="0"/>
+              <Link name="XLH" direction="0"/>
+              <Link name="XLE" direction="0"/>
+              <Link name="XLF" direction="0"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+      </Nodes>
+    </Package>
+    <Package ID="6" Type="XS1-L2A-QF124">
+      <Nodes>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="13" InPackageId="0" Type="XS1-L1A" routingId="0x302">
+          <Tile Number="0" Reference="tile[13]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="2" number="0"/>
+              <Bit direction="1" number="1"/>
+              <Bit direction="3" number="2"/>
+              <Bit direction="3" number="3"/>
+              <Bit direction="3" number="4"/>
+              <Bit direction="3" number="5"/>
+              <Bit direction="3" number="6"/>
+              <Bit direction="3" number="7"/>
+              <Bit direction="1" number="8"/>
+              <Bit direction="1" number="9"/>
+              <Bit direction="1" number="10"/>
+              <Bit direction="1" number="11"/>
+              <Bit direction="1" number="12"/>
+              <Bit direction="1" number="13"/>
+              <Bit direction="1" number="14"/>
+              <Bit direction="1" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLB" direction="3"/>
+              <Link name="XLG" direction="1"/>
+              <Link name="XLH" direction="1"/>
+              <Link name="XLE" direction="1"/>
+              <Link name="XLF" direction="1"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="12" InPackageId="1" Type="XS1-L1A" routingId="0x300">
+          <Tile Number="0" Reference="tile[12]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="5" number="0"/>
+              <Bit direction="0" number="1"/>
+              <Bit direction="0" number="2"/>
+              <Bit direction="0" number="3"/>
+              <Bit direction="0" number="4"/>
+              <Bit direction="0" number="5"/>
+              <Bit direction="0" number="6"/>
+              <Bit direction="0" number="7"/>
+              <Bit direction="4" number="8"/>
+              <Bit direction="4" number="9"/>
+              <Bit direction="5" number="10"/>
+              <Bit direction="5" number="11"/>
+              <Bit direction="5" number="12"/>
+              <Bit direction="5" number="13"/>
+              <Bit direction="5" number="14"/>
+              <Bit direction="4" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLA" direction="4"/>
+              <Link name="XLG" direction="0"/>
+              <Link name="XLH" direction="0"/>
+              <Link name="XLE" direction="0"/>
+              <Link name="XLF" direction="0"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+      </Nodes>
+    </Package>
+    <Package ID="7" Type="XS1-L2A-QF124">
+      <Nodes>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="9" InPackageId="0" Type="XS1-L1A" routingId="0x202">
+          <Tile Number="0" Reference="tile[9]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="2" number="0"/>
+              <Bit direction="1" number="1"/>
+              <Bit direction="3" number="2"/>
+              <Bit direction="3" number="3"/>
+              <Bit direction="3" number="4"/>
+              <Bit direction="3" number="5"/>
+              <Bit direction="3" number="6"/>
+              <Bit direction="3" number="7"/>
+              <Bit direction="1" number="8"/>
+              <Bit direction="1" number="9"/>
+              <Bit direction="1" number="10"/>
+              <Bit direction="1" number="11"/>
+              <Bit direction="1" number="12"/>
+              <Bit direction="1" number="13"/>
+              <Bit direction="1" number="14"/>
+              <Bit direction="1" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLB" direction="3"/>
+              <Link name="XLG" direction="1"/>
+              <Link name="XLH" direction="1"/>
+              <Link name="XLE" direction="1"/>
+              <Link name="XLF" direction="1"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+        <Node Oscillator="25MHz" ReferenceFrequency="100MHz" SystemFrequency="500MHz" Id="8" InPackageId="1" Type="XS1-L1A" routingId="0x200">
+          <Tile Number="0" Reference="tile[8]"/>
+          <RoutingTable>
+            <Bits>
+              <Bit direction="5" number="0"/>
+              <Bit direction="0" number="1"/>
+              <Bit direction="0" number="2"/>
+              <Bit direction="0" number="3"/>
+              <Bit direction="0" number="4"/>
+              <Bit direction="0" number="5"/>
+              <Bit direction="0" number="6"/>
+              <Bit direction="0" number="7"/>
+              <Bit direction="5" number="8"/>
+              <Bit direction="4" number="9"/>
+              <Bit direction="5" number="10"/>
+              <Bit direction="5" number="11"/>
+              <Bit direction="5" number="12"/>
+              <Bit direction="5" number="13"/>
+              <Bit direction="5" number="14"/>
+              <Bit direction="4" number="15"/>
+            </Bits>
+            <Links>
+              <Link name="XLA" direction="4"/>
+              <Link name="XLB" direction="5"/>
+              <Link name="XLG" direction="0"/>
+              <Link name="XLH" direction="0"/>
+              <Link name="XLE" direction="0"/>
+              <Link name="XLF" direction="0"/>
+            </Links>
+          </RoutingTable>
+        </Node>
+      </Nodes>
+    </Package>
+  </Packages>
+  <Links>
+    <Link Encoding="5wire" Delays="2,1">
+      <LinkEndpoint NodeId="5" Link="XLB"/>
+      <LinkEndpoint NodeId="7" Link="XLA"/>
+    </Link>
+    <Link Encoding="5wire" Delays="2,1">
+      <LinkEndpoint NodeId="4" Link="XLB"/>
+      <LinkEndpoint NodeId="8" Link="XLA"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="4" Link="XLG"/>
+      <LinkEndpoint NodeId="5" Link="XLF"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="4" Link="XLH"/>
+      <LinkEndpoint NodeId="5" Link="XLE"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="4" Link="XLE"/>
+      <LinkEndpoint NodeId="5" Link="XLH"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="4" Link="XLF"/>
+      <LinkEndpoint NodeId="5" Link="XLG"/>
+    </Link>
+    <Link Encoding="5wire" Delays="2,1">
+      <LinkEndpoint NodeId="1" Link="XLB"/>
+      <LinkEndpoint NodeId="3" Link="XLA"/>
+    </Link>
+    <Link Encoding="5wire" Delays="2,1">
+      <LinkEndpoint NodeId="0" Link="XLB"/>
+      <LinkEndpoint NodeId="4" Link="XLA"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="0" Link="XLG"/>
+      <LinkEndpoint NodeId="1" Link="XLF"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="0" Link="XLH"/>
+      <LinkEndpoint NodeId="1" Link="XLE"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="0" Link="XLE"/>
+      <LinkEndpoint NodeId="1" Link="XLH"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="0" Link="XLF"/>
+      <LinkEndpoint NodeId="1" Link="XLG"/>
+    </Link>
+    <Link Encoding="5wire" Delays="2,1">
+      <LinkEndpoint NodeId="2" Link="XLB"/>
+      <LinkEndpoint NodeId="6" Link="XLA"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="2" Link="XLG"/>
+      <LinkEndpoint NodeId="3" Link="XLF"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="2" Link="XLH"/>
+      <LinkEndpoint NodeId="3" Link="XLE"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="2" Link="XLE"/>
+      <LinkEndpoint NodeId="3" Link="XLH"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="2" Link="XLF"/>
+      <LinkEndpoint NodeId="3" Link="XLG"/>
+    </Link>
+    <Link Encoding="5wire" Delays="2,1">
+      <LinkEndpoint NodeId="6" Link="XLB"/>
+      <LinkEndpoint NodeId="10" Link="XLA"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="6" Link="XLG"/>
+      <LinkEndpoint NodeId="7" Link="XLF"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="6" Link="XLH"/>
+      <LinkEndpoint NodeId="7" Link="XLE"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="6" Link="XLE"/>
+      <LinkEndpoint NodeId="7" Link="XLH"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="6" Link="XLF"/>
+      <LinkEndpoint NodeId="7" Link="XLG"/>
+    </Link>
+    <Link Encoding="5wire" Delays="2,1">
+      <LinkEndpoint NodeId="10" Link="XLB"/>
+      <LinkEndpoint NodeId="14" Link="XLA"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="10" Link="XLG"/>
+      <LinkEndpoint NodeId="11" Link="XLF"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="10" Link="XLH"/>
+      <LinkEndpoint NodeId="11" Link="XLE"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="10" Link="XLE"/>
+      <LinkEndpoint NodeId="11" Link="XLH"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="10" Link="XLF"/>
+      <LinkEndpoint NodeId="11" Link="XLG"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="14" Link="XLG"/>
+      <LinkEndpoint NodeId="15" Link="XLF"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="14" Link="XLH"/>
+      <LinkEndpoint NodeId="15" Link="XLE"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="14" Link="XLE"/>
+      <LinkEndpoint NodeId="15" Link="XLH"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="14" Link="XLF"/>
+      <LinkEndpoint NodeId="15" Link="XLG"/>
+    </Link>
+    <Link Encoding="5wire" Delays="2,1">
+      <LinkEndpoint NodeId="13" Link="XLB"/>
+      <LinkEndpoint NodeId="15" Link="XLA"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="12" Link="XLG"/>
+      <LinkEndpoint NodeId="13" Link="XLF"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="12" Link="XLH"/>
+      <LinkEndpoint NodeId="13" Link="XLE"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="12" Link="XLE"/>
+      <LinkEndpoint NodeId="13" Link="XLH"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="12" Link="XLF"/>
+      <LinkEndpoint NodeId="13" Link="XLG"/>
+    </Link>
+    <Link Encoding="5wire" Delays="2,1">
+      <LinkEndpoint NodeId="9" Link="XLB"/>
+      <LinkEndpoint NodeId="11" Link="XLA"/>
+    </Link>
+    <Link Encoding="5wire" Delays="2,1">
+      <LinkEndpoint NodeId="8" Link="XLB"/>
+      <LinkEndpoint NodeId="12" Link="XLA"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="8" Link="XLG"/>
+      <LinkEndpoint NodeId="9" Link="XLF"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="8" Link="XLH"/>
+      <LinkEndpoint NodeId="9" Link="XLE"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="8" Link="XLE"/>
+      <LinkEndpoint NodeId="9" Link="XLH"/>
+    </Link>
+    <Link Encoding="5wire" Delays="0,1">
+      <LinkEndpoint NodeId="8" Link="XLF"/>
+      <LinkEndpoint NodeId="9" Link="XLG"/>
+    </Link>
+    <Link Delays="4,4" Encoding="2wire" Flags="XSCOPE">
+      <LinkEndpoint Link="XLA" NodeId="5"/>
+      <LinkEndpoint Chanend="1" RoutingId="0x8000"/>
+    </Link>
+  </Links>
+  <JTAGChain>
+    <JTAGDevice NodeId="5"/>
+    <JTAGDevice NodeId="4"/>
+    <JTAGDevice NodeId="1"/>
+    <JTAGDevice NodeId="0"/>
+    <JTAGDevice NodeId="3"/>
+    <JTAGDevice NodeId="2"/>
+    <JTAGDevice NodeId="7"/>
+    <JTAGDevice NodeId="6"/>
+    <JTAGDevice NodeId="11"/>
+    <JTAGDevice NodeId="10"/>
+    <JTAGDevice NodeId="15"/>
+    <JTAGDevice NodeId="14"/>
+    <JTAGDevice NodeId="13"/>
+    <JTAGDevice NodeId="12"/>
+    <JTAGDevice NodeId="9"/>
+    <JTAGDevice NodeId="8"/>
+  </JTAGChain>
+</Network>
+
