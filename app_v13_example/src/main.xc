@@ -48,6 +48,11 @@ int main(void) {
     par (unsigned i = 0; i < NCORES; i += 1) {
       on tile[i]: example_ids(i,toks[i],toks[(i+1)%NCORES]);
     }
+    //Make all unused cores idle
+    par (unsigned i = 0; i < NCORES; i += 1) {
+      on tile[i]: swallow_xlinkboot_powersave_local(SWXLB_DIVIDER_DEFAULT,
+        1, 1);
+    }
   }
   return 0;
 }
